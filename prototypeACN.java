@@ -30,6 +30,7 @@ public class ACN_1 {
 					}
 					else if (seenDot == true) {
 						DECIMAL [pointerB] = Integer.parseInt(num.charAt(i) + "");
+						pointerB++;
 					}
 					
 				}
